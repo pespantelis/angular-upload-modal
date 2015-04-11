@@ -1,0 +1,25 @@
+#dropzone-modal {
+
+  .modal-dialog {
+    width: 640px;
+  }
+
+  .modal-body {
+    background: $gray-light;
+    padding: 15px;
+  }
+
+  #dropzone-img {
+    max-width: 100%;
+  }
+
+  #dropzone-hover {
+    border: 3px $gray-light solid;
+    padding: 40px 0;
+  }
+
+  .dz-drag-hover #dropzone-hover {
+    border: 3px #f1f1f1 dashed !important;
+    border-radius: 15px;
+  }
+}
